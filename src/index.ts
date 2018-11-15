@@ -77,7 +77,7 @@ class VimCell {
             lvim.defineEx('quit', 'q', function(cm: any) {
                 commands.execute('notebook:enter-command-mode');
             });
-            lvim.map('fd', '<Esc>','insert')
+            lvim.map('fd', '<Esc>', 'insert')
             
             (CodeMirror as any).Vim.handleKey(editor.editor, '<Esc>');
             lvim.defineMotion('moveByLinesOrCell', (cm: any, head: any, motionArgs: any, vim: any) => {
