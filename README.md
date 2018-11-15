@@ -1,4 +1,16 @@
 # jupyterlab-vim
+This is a fork of jupterlab-vim (https://github.com/jwkvam/jupyterlab-vim)
+with keybinding 'fd' for 'Esc', i.e. 'fd' exits vim insert mode.
+
+## Install (windows)
+Clone repository into a local directory.
+
+```bash
+jlpm install
+jupyter labextension install (install the current directory as en extension)
+```
+
+## Orignal Readme:
 
 [![npm version](https://badge.fury.io/js/jupyterlab_vim.svg)](https://www.npmjs.com/package/jupyterlab_vim)
 [![Build Status](https://travis-ci.org/jwkvam/jupyterlab-vim.svg?branch=master)](https://travis-ci.org/jwkvam/jupyterlab-vim)
