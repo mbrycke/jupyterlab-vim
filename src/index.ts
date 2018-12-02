@@ -580,11 +580,7 @@ function activateCellVim(app: JupyterLab, tracker: INotebookTracker): Promise<vo
             keys: ['Ctrl G'],
             command: 'tooltip:launch-notebook'
         });
-        commands.addKeyBinding({
-            selector: '.jp-Notebook.jp-mod-editMode',
-            keys: ['F', 'D'],
-            command: 'leave-insert-mode'
-        });
+
 
         // tslint:disable:no-unused-expression
         new VimCell(app, tracker);
