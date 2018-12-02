@@ -582,7 +582,7 @@ function activateCellVim(app: JupyterLab, tracker: INotebookTracker): Promise<vo
         });
         commands.addKeyBinding({
             selector: '.jp-Notebook.jp-mod-editMode',
-            keys: ['F D'],
+            keys: ['F', 'D'],
             command: 'leave-insert-mode'
         });
 
